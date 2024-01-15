@@ -9,7 +9,7 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>
+        <footer className="text-center">
           This project was coded by{" "}
           <a href="https://www.linkedin.com/in/caroline-flora-knight-48a24b118">
             Caroline Knight

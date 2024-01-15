@@ -1,0 +1,26 @@
+.Word {
+  padding: 10px;
+  font-size: 30px;
+  color: #4cc85a;
+}
+.pos {
+  padding: 10px;
+}
+.Phonetic {
+  padding: 10px;
+  text-decoration: underline;
+}
+.Definition {
+  font-weight: bold;
+  padding: 10px;
+}
+.synonym {
+  border: 2px solid #4cc85a;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+  background: #4cc85a;
+  color: white;
+}
