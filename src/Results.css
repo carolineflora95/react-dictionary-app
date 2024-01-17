@@ -11,8 +11,10 @@
   text-decoration: underline;
 }
 .Definition {
-  font-weight: bold;
+  opacity: 0.8;
   padding: 10px;
+  text-decoration: underline;
+  text-decoration-color: #4cc85a;
 }
 .synonym {
   border: 2px solid #4cc85a;
@@ -23,4 +25,8 @@
   font-weight: bold;
   background: #4cc85a;
   color: white;
+}
+.Example {
+  padding: 10px;
+  color: black;
 }
