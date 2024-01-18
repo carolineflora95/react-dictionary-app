@@ -8,7 +8,7 @@ export default function Dictionary() {
   let [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    setResults(response.data[0]);
+    setResults(response.data);
   }
 
   function search(event) {
@@ -26,7 +26,8 @@ export default function Dictionary() {
   return (
     <div>
       <div className="block">
-        <h1>Caroline's Dictionary</h1>
+        <h1 className="title">VocabVault</h1>
+        <h2 className="subtitle">Discover Something You Never Knew</h2>
         <div className="Dictionary">
           <form onSubmit={search}>
             <input
