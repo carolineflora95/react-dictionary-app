@@ -1,0 +1,10 @@
+.Photos img {
+  max-width: 200px;
+  margin: 10px;
+  border-radius: 4%;
+  transition: transform 0.3s ease;
+}
+.Photos img:hover {
+  transform: scale(1.2);
+  opacity: 0.7;
+}
